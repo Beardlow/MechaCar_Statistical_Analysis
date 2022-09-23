@@ -17,3 +17,4 @@ setwd("~/OSU_Bootcamp/Analysis_Projects/MechaCar_Statistical_Analysis")
  # Lot 2
  t.test((subset(Susp_DF, Manufacturing_Lot=='Lot2'))$PSI, mu=1500)
  # Lot 3
+ t.test((subset(Susp_DF, Manufacturing_Lot=='Lot3'))$PSI, mu=1500)
